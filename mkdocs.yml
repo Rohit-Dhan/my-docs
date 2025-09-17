@@ -1,0 +1,75 @@
+site_name: Documentation
+site_description: "Personal Angular Reference with Multi-Language Support"
+site_author: "Your Name"
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+    - i18n 
+    - palette.toggle 
+  palette:
+     # Light mode
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: blue
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    # Auto mode (follows system preference)
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to system preference
+plugins:
+  - search
+  - mkdocstrings
+nav:
+  - Home: index.md
+  - Angular:
+      - Overview: angular/index.md
+      - Introduction: angular/001.md
+      - Components: angular/002.md
+      - Access HTML: angular/003.md
+      - ng-content: angular/004.md
+      - Lifecycle: angular/005.md
+      - Directives: angular/006.md
+      - Interceptor: angular/007.md
+      - Forms: angular/008.md
+      - Routing: angular/009.md
+      - Pipes: angular/010.md
+      - HTTP Module: angular/011.md
+      - JIT & AOT: angular/012.md
+      - Service: angular/013.md
+      - RxJS: angular/014.md
+      - Regex: angular/015.md
+      - Versions: angular/016.md
+      - Signal: angular/017.md
+      - State Mgmt: angular/018.md
+      - Resource API: angular/019.md
+      - NgRx: angular/020.md
+  - TypeScript:
+      - Overview: typescript/index.md
+      - Basics: typescript/basics.md
+      - Advanced: typescript/advanced.md
+  - React:
+      - Overview: react/index.md
+      - Hooks: react/hooks.md
+      - State Management: react/state.md
+  - Node.js:
+      - Overview: node/index.md
+      - Express: node/express.md
+      - Database: node/database.md

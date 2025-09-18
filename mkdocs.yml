@@ -61,15 +61,7 @@ nav:
       - State Mgmt: angular/018.md
       - Resource API: angular/019.md
       - NgRx: angular/020.md
-  - TypeScript:
-      - Overview: typescript/index.md
+  - Webpack:
+      - Overview: webpack/index.md
       - Basics: typescript/basics.md
       - Advanced: typescript/advanced.md
-  - React:
-      - Overview: react/index.md
-      - Hooks: react/hooks.md
-      - State Management: react/state.md
-  - Node.js:
-      - Overview: node/index.md
-      - Express: node/express.md
-      - Database: node/database.md
